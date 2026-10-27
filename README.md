@@ -4,7 +4,7 @@ The website for Lawgically IT.support, a web and AI engineering agency in Raipur
 
 ## Run it on your computer
 
-You need Node.js 18.18 or newer.
+You need Node.js 20 or newer (22 or 24 recommended).
 
 ```bash
 npm install

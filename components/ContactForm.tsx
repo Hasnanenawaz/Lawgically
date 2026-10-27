@@ -48,7 +48,7 @@ export default function ContactForm() {
         <div style={{ display: 'flex', flexDirection: 'column', gap: 18 }}>
           <div className="two">
             <div className="field"><label htmlFor="f-name">Your name</label><input className="inp" id="f-name" name="name" type="text" autoComplete="name" value={name} onChange={(e) => { setName(e.target.value); setErr(''); }} /></div>
-            <div className="field"><label htmlFor="f-contact">Phone or email</label><input className="inp" id="f-contact" name="contact" type="text" autoComplete="tel" inputMode="text" value={contact} onChange={(e) => { setContact(e.target.value); setErr(''); }} /></div>
+            <div className="field"><label htmlFor="f-contact">Phone or email</label><input className="inp" id="f-contact" name="contact" type="text" autoComplete="on" inputMode="text" value={contact} onChange={(e) => { setContact(e.target.value); setErr(''); }} /></div>
           </div>
           <div className="field">
             <label htmlFor="f-service">What do you need help with?</label>

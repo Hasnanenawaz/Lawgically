@@ -346,7 +346,7 @@ export default function Home() {
           </div>
           <div className="fbottom">
             <span>© {new Date().getFullYear()} Lawgically IT.support</span>
-            <span style={{ display: 'flex', gap: 20 }}><a href="#privacy">Privacy policy</a><a href="#terms">Terms</a></span>
+            {/* Add Privacy policy and Terms links here once those pages exist */}
           </div>
         </div>
       </footer>

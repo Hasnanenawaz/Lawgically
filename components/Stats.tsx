@@ -28,7 +28,7 @@ export default function Stats() {
   return (
     <div className="proof reveal" ref={ref}>
       <div className="pstat"><span className="pnum">{Math.round(50 * p)}<small>k+</small></span><span className="plabel">Community members grown in 4 months<em>Budding Mariners</em></span></div>
-      <div className="pstat"><span className="pnum">₹3.1<small>L</small></span><span className="plabel">Monthly revenue, up from ₹40k in 2 months<em>Budding Mariners</em></span></div>
+      <div className="pstat"><span className="pnum">₹3.1<small>L</small></span><span className="plabel">Monthly revenue, up from ₹40k<em>Budding Mariners</em></span></div>
       <div className="pstat"><span className="pnum">{Math.round(300 * p)}<small>%</small></span><span className="plabel">Community growth in 2 months<em>The Jus Anima</em></span></div>
       <div className="pstat"><span className="pnum">+{Math.round(20 * p)}<small>%</small></span><span className="plabel">Revenue growth from B2B marketing<em>Stamp2Fly</em></span></div>
     </div>
